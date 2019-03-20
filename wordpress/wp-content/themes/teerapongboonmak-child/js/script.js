@@ -1,0 +1,1 @@
+//jQuery( "aside#secondary.widget-area article.wp-show-posts-single.wpsp-col-4" ).addClass( "wpsp-col-12" );
