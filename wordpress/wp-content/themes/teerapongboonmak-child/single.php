@@ -34,7 +34,6 @@ get_header();
 					echo "<b>Category: </b>"; 
 					$categories = get_the_category();
 					foreach( $categories as $key => $category ) {
-						//echo "<a href='".get_category_link( $category->term_id )."'>".$category->name."</a> | ";
 						if ($key !== 0) {
 							echo " | ";
 						}

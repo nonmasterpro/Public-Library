@@ -18,7 +18,7 @@ body
 
 .content-area
 {
-	min-height: 90vh!important;
+	min-height: 95vh!important;
 }
 
 .pt-50px
@@ -79,14 +79,15 @@ footer .site-info a:hover {
 }
 
 /* Blog */
-article.blog div.post-thumbnail img {
+article.post div.post-thumbnail img {
     max-height: 500px;
+    width: auto;
     display: block;
     margin: 0 auto;
     margin-top: 50px;
 }
 
-article.blog header.entry-header {
+article.post header.entry-header {
     margin-top: 50px;
 }
 
@@ -189,6 +190,11 @@ body.single main#main
     display: none;
 }
 
+body.author .post-thumbnail img
+{
+    max-width: 300px;
+}
+
 .author-img-blog img
 {
     max-width: 300px;
@@ -197,4 +203,14 @@ body.single main#main
 article .wpsp-load-more {
     font-size: 25px;
     margin-top: 1em;
+}
+
+.search-book
+{
+    margin-bottom: 10px;
+}
+
+.search-book-sidebar input.btnn
+{
+    margin-top: 5px;
 }

@@ -14,7 +14,6 @@ get_header();
 		<div class="container">
 			<main id="main" class="site-main">
 
-
 			<?php 
 			$author = get_the_author();
 		    $blog_query = null;
@@ -46,7 +45,7 @@ get_header();
 
 				endwhile;
 
-			      if ( $blog_query->have_posts() ) {
+			      /*if ( $blog_query->have_posts() ) {
 			      echo "<h3> Blog </h5>";
 			      echo "<ul>";
 			        while ( $blog_query->have_posts() ) {
@@ -68,7 +67,7 @@ get_header();
 			        }
 			      echo "</ul>";
 			      }
-			      wp_reset_postdata();
+			      wp_reset_postdata();*/
 
 				//the_posts_navigation();
 
